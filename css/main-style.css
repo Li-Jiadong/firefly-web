@@ -1,0 +1,280 @@
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.main_background{
+    z-index: -1000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url("../assets/image/backgrand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    white-space: nowrap;
+}
+.title a:hover{
+    color: #224994;
+    font-weight: bold;
+    
+}
+.title span{
+    float: right;
+    margin: 0 0;
+    position: absolute;
+    top: 16px;
+    right: 5px;
+}
+.title li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-right: 100px;
+}
+.smallimg img{
+    width: 100%;
+    height: 100%;
+}
+/*
+    head
+*/
+.head_main{
+    background-color: blueviolet;
+    text-align: center;
+    overflow: hidden;
+    line-height: 100px;
+    height: 100px;
+}
+.head_title{
+    font-size: 40px;
+    color: black;
+    overflow: hidden;
+    float: left;
+}
+.head_title img{
+    width: auto;
+    height: 100px;
+}
+.head_item{
+    float: left;
+    text-align: center;
+}
+.head_item li{
+    float: left;
+    font-size: 20px;
+    margin-right: 60px;
+}
+.head_item a{
+    color: black;
+}
+.head_item a:hover{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+    image
+*/
+.image_main{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 5px;
+    perspective: 1000;
+    -webkit-perspective: 1000; 
+    -moz-perspective: 1000;
+}
+.image_main img{
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+.image_left{
+    transition: transform 2s, width 2s,height 2s,top 2s,left 2s;
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 0%;
+    transform: rotateY(-13deg) rotateX(-5deg);
+
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    z-index: 50;
+}
+.image_center{
+    transition: transform 2s, width 2s,height 2s,top 2s,left 2s;
+    width: 40%;
+    height: 95%;
+    top: 2.5%;
+    left: 30%;
+    transform: rotateX(-2deg);
+
+    overflow: hidden;
+    float: left;
+    padding: 0 10px;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+}
+.image_right{
+    transition: transform 2s, width 2s,height 2s,top 2s,left 2s;
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 70%;
+    transform: rotateY(13deg) rotateX(-5deg);
+
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    z-index: 50;
+}
+.image_right_r{
+    transition: transform 2s, width 2s,height 2s,top 2s,left 2s;
+    width: 20%;
+    height: 40%;
+    top: 30%;
+    left: 81%;
+    transform: rotateY(70deg) rotateX(-5deg);
+
+    overflow: hidden;
+    float: left;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    z-index: 10;
+}
+
+/*
+    body
+*/
+
+.body_main{
+    overflow: hidden;
+    opacity: 0.9;
+}
+.body_row1{
+    background-color: white;
+    overflow: hidden;
+}
+.body_row2{
+    background-color: gainsboro;
+    overflow: hidden;
+}
+.body_news{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.body_news_withimg{
+    overflow: hidden;
+    margin-bottom: 5px;
+    
+}
+.body_news_withimg .smallimg{
+    background-color: cornsilk;
+    height: 150px;
+    padding: 0 0;
+}
+.body_news_withimg .title{
+    overflow: hidden;
+}
+.body_news_withimg .contain{
+    overflow: hidden;
+}
+.body_news_noimg .title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.body_activity{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.body_activity .title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.body_share{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.body_share_list{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.body_share_list .title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.body_class{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.body_class_info{
+    background-color: crimson;
+    height: 330px;
+}
+.body_class_news{
+    overflow: hidden;
+}
+.body_class_news .title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.body_group{
+    background-color: white;
+    height: 400px;
+    padding: 0 10px;
+}
+.body_blank{
+    background-color: darkgray;
+    height: 150px;
+    padding: 0 10px;
+}
+.body_title{
+    padding: 20px 20px;
+    line-height: 20px;
+}
+.body_title span{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.body_title span:hover{
+    color: #224994;
+    text-decoration: none;
+}
+.body_title li{
+    color: darkgrey;
+    font-size: 15px;
+    float: right;
+}
+.body_title li:hover{
+    text-decoration: underline;
+}
+
+
+/*
+    bottom
+*/
+.bottom_main{
+    background-color: blueviolet;
+    height: 100px;
+}
