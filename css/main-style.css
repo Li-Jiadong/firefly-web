@@ -169,14 +169,13 @@ li{
 
 .body_main{
     overflow: hidden;
-    opacity: 0.9;
 }
 .body_row1{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     overflow: hidden;
 }
 .body_row2{
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.9);
     overflow: hidden;
 }
 .body_news{
@@ -189,7 +188,7 @@ li{
     
 }
 .body_news_withimg .smallimg{
-    background-color: cornsilk;
+    background-color: rgb(255, 248, 219);
     height: 150px;
     padding: 0 0;
 }
@@ -240,7 +239,7 @@ li{
     margin-bottom: 5px;
 }
 .body_group{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     padding-bottom: 20px;
 }
 .body_blank{
@@ -277,5 +276,5 @@ li{
 */
 .bottom_main{
     background-color: blueviolet;
-    height: 100px;
+    height: 50px;
 }
