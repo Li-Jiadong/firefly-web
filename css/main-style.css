@@ -1,4 +1,3 @@
-
 li{
     text-decoration: none;
     list-style: none;
@@ -18,7 +17,6 @@ li{
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    white-space: nowrap;
 }
 .title a:hover{
     color: #224994;
@@ -42,6 +40,9 @@ li{
 .smallimg img{
     width: 100%;
     height: 100%;
+}
+.contain{
+    overflow: hidden;
 }
 /*
     head
@@ -180,7 +181,7 @@ li{
 }
 .body_news{
     overflow: hidden;
-    padding: 0 10px;
+    padding-bottom: 20px;
 }
 .body_news_withimg{
     overflow: hidden;
@@ -193,9 +194,6 @@ li{
     padding: 0 0;
 }
 .body_news_withimg .title{
-    overflow: hidden;
-}
-.body_news_withimg .contain{
     overflow: hidden;
 }
 .body_news_noimg .title{
@@ -227,8 +225,12 @@ li{
     padding: 0 10px;
 }
 .body_class_info{
-    background-color: crimson;
-    height: 330px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.body_class_info div{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .body_class_news{
     overflow: hidden;
@@ -239,8 +241,7 @@ li{
 }
 .body_group{
     background-color: white;
-    height: 400px;
-    padding: 0 10px;
+    padding-bottom: 20px;
 }
 .body_blank{
     background-color: darkgray;
